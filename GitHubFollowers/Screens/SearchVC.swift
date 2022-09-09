@@ -2,7 +2,7 @@
 //  SearchVC.swift
 //  GitHubFollowers
 //
-//  Created by SW Dev RGTC 1 on 7/29/22.
+//  Created by John Patrick Echavezon 7/29/22.
 //
 
 import UIKit
@@ -28,7 +28,7 @@ class SearchVC: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        navigationController?.isNavigationBarHidden = true
+        navigationController?.setNavigationBarHidden(false, animated: true)
     }
     
     func createDismissKeyboardTapGesture() {
@@ -55,7 +55,7 @@ class SearchVC: UIViewController {
     func configureLogoImageView() {
         view.addSubview(logoImageView)
         logoImageView.translatesAutoresizingMaskIntoConstraints = false
-        logoImageView.image = UIImage(named: "github-logo")
+        logoImageView.image = UIImage(named: "gh-logo")
         
         NSLayoutConstraint.activate([
             logoImageView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 80),

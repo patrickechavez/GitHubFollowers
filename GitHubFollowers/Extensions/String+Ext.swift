@@ -2,7 +2,7 @@
 //  String+Extension.swift
 //  GitHubFollowers
 //
-//  Created by SW Dev RGTC 1 on 8/20/22.
+//  Created by John Patrick Echavez on 8/20/22.
 //
 
 import Foundation

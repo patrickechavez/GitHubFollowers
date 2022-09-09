@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  GitHubFollowers
 //
-//  Created by SW Dev RGTC 1 on 7/29/22.
+//  Created by John Patrick Echavez on 7/29/22.
 //
 
 import UIKit

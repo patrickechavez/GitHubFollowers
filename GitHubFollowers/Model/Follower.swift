@@ -2,7 +2,12 @@
 //  Follower.swift
 //  GitHubFollowers
 //
-//  Created by SW Dev RGTC 1 on 8/21/22.
+//  Created by John Patrick Echavez on 8/21/22.
 //
 
 import Foundation
+
+struct Follower: Codable, Hashable {
+    var login: String
+    var avatarUrl: String
+}
